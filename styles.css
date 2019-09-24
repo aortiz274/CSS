@@ -1,14 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-.container{
-	background-color: teal;
-}
+.container{background-color: teal}
 
 
 header{ 
-background: #289070;
+
 width: 100%;
 height: 150px;
 font-size: 125px;
