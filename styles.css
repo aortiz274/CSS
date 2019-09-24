@@ -1,11 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.container{
+	width:1020px;
+	margin: 0 auto;
+			
 
+}
 
 
 header{ 
-background-color: teal;
+background-color: lightslategrey;
 width: 100%;
 height: 150px;
 font-size: 125px;
@@ -16,10 +21,47 @@ text-align: center;
 }
 
 
-nav{background-color: aquamarine;
+nav{background-color: lightgrey;
 	width:100%;
 	height: 35px;
 	marigin-left: 25px;
 }
 
-#title fight{background-color: blueviolet}
+.music{
+	text-align: center;
+	background-color: grey;
+	width: 1020px;
+	margin:0 auto
+
+}
+
+
+
+#daylight{
+	text-align: center;
+	width:33%;
+	background-color: teal;
+	height: 400px;
+	float:left;
+}
+
+#thestrokes{
+	text-align: center;
+	width:33%;
+	height:400px;
+	background-color: steelblue;
+	float:right;
+}
+
+#deftones{
+	text-align: center;
+	height:400px;
+	background-color: cadetblue
+	
+	
+	
+	
+	
+}
+
+
