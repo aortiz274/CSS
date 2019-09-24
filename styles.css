@@ -2,7 +2,7 @@
 /* CSS Document */
 
 
-.container{ 
+.container{
 	background-color: teal;
 }
 
@@ -46,7 +46,8 @@ nav{background-color: aquamarine;
 #pursuit of happiness{background-color: pink;
 	width:20%;
 	height:400px;
-	float:left;
+	float:center;
+	
 }
 
 p{color: white;
