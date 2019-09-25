@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 .container{
 	width:1020px;
 	margin: 0 auto;
@@ -21,7 +23,7 @@ text-align: center;
 }
 
 
-nav{background-color: lightgrey;
+nav{background-color:lightgrey;
 	width:100%;
 	height: 35px;
 	marigin-left: 25px;
@@ -35,33 +37,53 @@ nav{background-color: lightgrey;
 
 }
 
-
-
 #daylight{
 	text-align: center;
 	width:33%;
-	background-color: teal;
-	height: 400px;
-	float:left;
-}
-
-#thestrokes{
-	text-align: center;
-	width:33%;
+	background-color: lightslategrey;
 	height:400px;
-	background-color: steelblue;
-	float:right;
+	float:left;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-left-style: solid;
+
+
+	
+
+
+	
 }
 
+	
 #deftones{
 	text-align: center;
+	width:32%;
+	background-color: lightslategrey;
 	height:400px;
-	background-color: cadetblue
+	float:left;
+	border-bottom-style: solid;
+	border-top-style: solid;
 	
+
 	
 	
 	
 	
 }
+
+
+	
+#strokes{
+	text-align: center;
+	width:34%;
+	background-color: lightslategrey;
+	height:400px;
+	float:left;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-right-style: solid
+
+}	
+	
 
 
