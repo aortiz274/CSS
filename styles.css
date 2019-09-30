@@ -40,14 +40,13 @@ nav{background-color:lightgrey;
 
 #daylight{
 	text-align: center;
-	width:33%;
+	width:31%;
 	background-color: lightslategrey;
-	height:400px;
+	height:440px;
 	float:left;
-	border-bottom-style: solid;
 	border-top-style: solid;
 	border-left-style: solid;
-
+	padding: 10px;
 
 	
 
@@ -55,14 +54,16 @@ nav{background-color:lightgrey;
 	
 }
 
+#list{text-align: left}
+
+#fisheye{padding-left: 20px}
 	
 #deftones{
 	text-align: center;
 	width:32%;
 	background-color: lightslategrey;
-	height:400px;
+	height:460px;
 	float:left;
-	border-bottom-style: solid;
 	border-top-style: solid;
 	
 
@@ -72,19 +73,35 @@ nav{background-color:lightgrey;
 	
 }
 
-
+#canon{
+	width: 150px;
+}
 	
+#sony{
+	width:150px;
+	
+	
+}
+
+
 #strokes{
 	text-align: center;
 	width:34%;
 	background-color: lightslategrey;
-	height:400px;
+	height:460px;
 	float:left;
-	border-bottom-style: solid;
 	border-top-style: solid;
 	border-right-style: solid
 
 }	
 	
 
+#exposure{width: 300px}
 
+
+.video{
+	align-items: center;
+	
+	
+	
+}
