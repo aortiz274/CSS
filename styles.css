@@ -86,7 +86,7 @@ nav{background-color:lightgrey;
 
 #strokes{
 	text-align: center;
-	width:34%;
+	width:34.43%;
 	background-color: lightslategrey;
 	height:460px;
 	float:left;
@@ -98,10 +98,23 @@ nav{background-color:lightgrey;
 
 #exposure{width: 300px}
 
+#pvideo{
+	text-align: center;
+	
+	
+}
+
+#video{ 
+	background-color: lightslategrey;
+	border-left: medium;
+	border-right:medium;
+
+}
 
 .video{
-	align-items: center;
 	
+	width: 500px;
+	height: 300px;
 	
 	
 }
