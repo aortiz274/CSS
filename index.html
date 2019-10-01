@@ -1,13 +1,27 @@
 <!doctype html>
 <html>
 <head> 
-	<link href="styles.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+<link href="styles.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>CSS</title>
 </head>
 	
-	<div class="container">
 	
+<div class="container">	
+	
+
 	 
 <header>Photography101</header>
 		
@@ -27,11 +41,17 @@
 <body>
 	
 	<div class="container">
-	
+		
 	<h2 class="music">Beginners breakdown</h2>
-	
-	<section id="daylight"><h3>What is Photograghy?</h3>
-		<p id="list"> Photograghy literally means drawing with light. Your camera is like your paint brush and you use it to capture visuals we cannot see with the naked eye.  Everyone has their own style, my advise would be to research different photographers and see which ones you like and why. <br>
+		
+	<section id="daylight">
+		
+		<div id="accordion">
+		<h3>What is Photograghy?</h3>
+			
+		<p id="list"> Photograghy literally means drawing with light. Your camera is like your paint brush and you use it to capture visuals we cannot see with the naked eye.  Everyone has their own style, my advise would be to research different photographers and see which ones you like and why. 
+		
+			<br>
           <br>
           <br>
 			
@@ -39,12 +59,14 @@
 		
 		</p>
 		
-		
+		</div>
 		
 	  </section>
 		
 
-	<section id="deftones"><h3>Types of Cameras</h3>
+	<section id="deftones">
+		<div id="accordion">
+		<h3>Types of Cameras</h3>
 		
 		
 		<p> Camera have evolved over time. We went from film, to digital. We went from mirror cameras to mirrorless. But which is better? Well neither out performs the other. It's really just about personal preference. 
@@ -57,7 +79,7 @@
 		
 		</p>
 		
-		
+		</div>
 		
 		
 	  </section>
@@ -89,15 +111,18 @@
 	
 	<div class="container"> 
 		
-	<div id=accordion>
+	<div id="accordion">
+		
+		
 		
 		<section id="video">
+			
 		
 		<p id="pvideo">This video will explain how the camera setting will effect the exopsure. 
 	
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/ixRKeQMa7Nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</p>
-			<br><br> <br> 
+			<br><br> 
 	
 	</section>
 		
