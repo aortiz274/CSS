@@ -2,20 +2,16 @@
 <html>
 <head> 
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Accordion - Default functionality</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#accordion" ).accordion();
-  } );
-  </script>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>CSS</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#types" ).accordion();
+  } );
+  </script>
 </head>
 	
 	
@@ -63,9 +59,9 @@
 		
 	  </section>
 		
-
+		<div id="types">
 	<section id="deftones">
-		<div id="accordion">
+		
 		<h3>Types of Cameras</h3>
 		
 		
@@ -79,11 +75,11 @@
 		
 		</p>
 		
-		</div>
+		
 		
 		
 	  </section>
-		
+		</div>
 	
 	<section id="strokes"><h3>Exposure</h3>
 		<p>Exposure is the amount of light you are allowing into the image sensor in your camera. Exposure plays the most imporant role in photograghy. Without good exposure your photos will always fall short either being ovr exposed or under exposed. The way to control the exposure is by understanding what shutter speed, iso, and apature are. 
@@ -91,9 +87,6 @@
 		
 		
 		<img id="exposure" src="assets/images/overexposed-and-underexposed.jpg" alt="overexposedvsunderexposed">
-		
-		
-		
 		
 		</p> 
 		
@@ -111,13 +104,10 @@
 	
 	<div class="container"> 
 		
-	<div id="accordion">
-		
-		
+
 		
 		<section id="video">
 			
-		
 		<p id="pvideo">This video will explain how the camera setting will effect the exopsure. 
 	
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/ixRKeQMa7Nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
