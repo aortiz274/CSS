@@ -73,11 +73,10 @@ nav{background-color:lightgrey;
 
 #deftones{
 	text-align: center;
-	width:32%;
+	width:25%;
 	background-color: lightslategrey;
 	height:460px;
 	float:left;
-	border-top-style: solid;
 	font-family: 'Roboto', sans-serif;
 	
 
@@ -100,13 +99,12 @@ nav{background-color:lightgrey;
 
 #strokes{
 	text-align: center;
-	width:34.43%;
+	width:27.05%;
 	background-color: lightslategrey;
 	height:460px;
-	float:left;
-	border-top-style: solid;
 	border-right-style: solid;
 	font-family: 'Roboto', sans-serif;
+	float:left;
 
 }	
 	
@@ -120,6 +118,8 @@ nav{background-color:lightgrey;
 	text-align: center;
 	align-content: center;
 	
+			
+	
 	
 	
 	
@@ -131,6 +131,9 @@ nav{background-color:lightgrey;
 	border-right-style: solid;
 	border-left-style:solid;
 	align-items: center;
+	width:1014px;
+	margin: 0 auto;
+	border-bottom-style:solid
 }
 
 
