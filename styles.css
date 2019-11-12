@@ -43,7 +43,7 @@ nav{background-color:lightgrey;
 
 #daylight{
 	text-align: center;
-	width:31%;
+	width:340px;
 	background-color: lightslategrey;
 	height:440px;
 	float:left;
@@ -73,7 +73,7 @@ nav{background-color:lightgrey;
 
 #deftones{
 	text-align: center;
-	width:25%;
+	width:340px;
 	background-color: lightslategrey;
 	height:460px;
 	float:left;
@@ -99,7 +99,7 @@ nav{background-color:lightgrey;
 
 #strokes{
 	text-align: center;
-	width:25%;
+	width:340px;
 	background-color: lightslategrey;
 	height:460px;
 	border-right-style: solid;
