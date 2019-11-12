@@ -99,7 +99,7 @@ nav{background-color:lightgrey;
 
 #strokes{
 	text-align: center;
-	width:29%;
+	width:20.6%;
 	background-color: lightslategrey;
 	height:460px;
 	border-right-style: solid;
@@ -131,7 +131,7 @@ nav{background-color:lightgrey;
 	border-right-style: solid;
 	border-left-style:solid;
 	align-items: center;
-	width:1015px;
+	width:1014px;
 	margin: 0 auto;
 	border-bottom-style:solid
 }
